@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+
+{{ "<!-- goals -->" | safeHTML }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ "<!-- /goals -->" | safeHTML }}
+
+
+<!-- call to action -->
+<!-- /call to action -->
+
+{{ end }}
