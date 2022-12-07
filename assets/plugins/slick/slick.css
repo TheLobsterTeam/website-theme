@@ -54,10 +54,17 @@
     top: 0;
     left: 0;
 
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
+
+.slick-track .slick-slide {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
 .slick-track:before,
 .slick-track:after
 {
